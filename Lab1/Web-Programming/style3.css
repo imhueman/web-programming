@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif,"Roboto Light";
+}
+
+.header, .footer-section, .company-img{
+    color: white;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 40px;
+    padding: 15px;
+}
+.header{
+    background-color: peru;
+    width: 900px;
+    height: 120px;
+    margin-bottom: 12px;
+
+}
+.layout3 h2,h3,h4 {
+    font-weight: 500;
+}
+.company-img{
+    width: 900px;
+    height: 400px;
+    background-color: #a9a9a9;
+    margin-bottom: 16px;
+    padding: 111px;
+}
+.services{
+    width: 880px;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.services-items, .services-items-bottom{
+    width: 180px;
+    height: 220px;
+    color: white;
+    background-color: #a9a9a9;
+    border: 2px solid black;
+    float: left;
+    margin: 55px;
+    padding-top: 80px;
+
+}
+.footer-section{
+    background-color: #0e467a;
+    width: 900px;
+    height: 120px;
+    overflow: auto;
+}
