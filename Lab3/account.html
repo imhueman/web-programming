@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account</title>
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/account.css">
+</head>
+<body>
+    <div id="main">
+        <div class="form-main">
+            <div class="container">
+                <form action="">
+                    <div class="title-account">
+                        <h2 class="title">Account</h2>
+                    </div>
+                    <div class="row">
+                        <div class="input-form col col-full">
+                            <i class="icon-first fa fa-user"></i>
+                            <input type="text" class="form-account line-right" name="name" placeholder="Full Name" >
+                        </div>
+                        <div class="input-form col col-full">
+                            <i class="icon-first fa fa-envelope"></i>
+                            <input type="email" class="form-account line-right" name="email" placeholder="Email Adress" >
+                        </div>
+                        <div class="input-form col col-full">
+                            <i class="icon-first fa fa-key"></i>
+                            <input type="password" class="form-account line-right" name="key" placeholder="Password" >
+                        </div>
+                        <div class="form-sub">
+                            <div class="date-of-birth">
+                                <h2 class="title">Date of Birth</h2>
+                                <div class="select ">
+                                    <select class="enter-date form-account" name="days">
+                                        <option value="dd">DD</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                    </select>
+                                    <select class="enter-date form-account" name="months">
+                                        <option value="month">MM</option>
+                                        <option value="January">January</option>
+                                        <option value="February">February</option>
+                                        <option value="March">March</option>
+                                        <option value="April">April</option>
+                                        <option value="May">May</option>
+                                        <option value="May">May</option>
+                                        <option value="July">July</option>
+                                        <option value="August">August</option>
+                                        <option value="September">September</option>
+                                        <option value="October">October</option>
+                                        <option value="November">November</option>
+                                        <option value="December">December</option>
+                                    </select>
+                                    <select class="enter-date form-account" name="year">
+                                        <option value="year">YYYY</option>
+                                        <option value="1999">1999</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2099">2099</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="gender-right">
+                                <h2 class="title">Gender</h2>
+                                <div class="check">
+                                    <div class=" radiochekc" type="submit">
+                                        <button class="form-account " id="male">Male</button>
+                                    </div>
+                                    <div class=" radiochekc">
+                                        <button class="form-account" id="female">Female</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="payment-details">
+                            <h2 class="title">Payment Details</h2>
+                            <div class="pay">
+                                <div class="pays credit-card">
+                                    <div class="title-pay">
+                                        <button class="payment-sub" type="submit">
+                                            <i class="fa fa-cc-visa pay-icon"></i>
+                                            Credit Card
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="pays paypal-card">
+                                    <div class="title-pay">
+                                        <button class="payment-sub" type="submit">
+                                            <i class="fa fa-cc-paypal pay-icon"></i>
+                                            Paypal
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-number input-form col col-full">
+                                <i class="icon-first fa fa-credit-card"></i>
+                                <input type="text" class="form-account line-right" name="card" placeholder="Card Number" >
+                        </div>
+                        <div class="datecards">
+                            <div class="cardcvc-left input-form">
+                                <i class="icon-first fa fa-user"></i>
+                                <input type="text" class="input-cardcvc form-account line-right" name="cardcvc" placeholder="Card CVC" >
+                            </div>
+                            <div class="cardcvc-right input-form">
+                            <select name="" class="date-cvc form-account">
+                                <option value="">01 Jan</option>
+                                <option value="">02 Feb</option>
+                                <option value="">03 Mar</option>
+                                <option value="">04 Apr</option>
+                                <option value="">05 May</option>
+                            </select>
+                            <select name="" class="date-cvc form-account">
+                                <option value="">2022</option>
+                                <option value="">2021</option>
+                                <option value="">2020</option>
+                                <option value="">2019</option>
+                                <option value="">2018</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="term">
+                         <h2 class="title">Terms and Conditions</h2>
+                            <div class="read">
+                                <input type="checkbox" class="tick" checked="checked">
+                                <p class="term1">I accept the terms and conditions for signing up to this service, and hereby confirm I have read the privacy pocily.</p>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

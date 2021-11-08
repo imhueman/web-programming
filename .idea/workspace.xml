@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -26,9 +27,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -41,6 +44,7 @@
       <recent name="C:\Users\Admin\Documents\web-programming\Lab2\page b\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\web-programming\Lab3\css" />
       <recent name="C:\Users\Admin\Documents\web-programming\Lab2\page b\css" />
       <recent name="C:\Users\Admin\Documents\web-programming\Lab2\page b\css\font-awesome-4.7.0\font-awesome-4.7.0\css" />
     </key>
@@ -59,6 +63,13 @@
       <workItem from="1634625840682" duration="6355000" />
       <workItem from="1634697496025" duration="25470000" />
       <workItem from="1634833389467" duration="494000" />
+      <workItem from="1635923331627" duration="1091000" />
+      <workItem from="1635946761432" duration="13168000" />
+      <workItem from="1636029209861" duration="9175000" />
+      <workItem from="1636101841751" duration="12819000" />
+      <workItem from="1636136797079" duration="3895000" />
+      <workItem from="1636340476904" duration="4809000" />
+      <workItem from="1636371955945" duration="17654000" />
     </task>
     <servers />
   </component>

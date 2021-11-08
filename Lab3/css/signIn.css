@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Franklin Gothic Medium", sans-serif ;
+    font-size:15px;
+    line-height: 1.5;
+    color: black;
+    background: white;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /*position: relative;*/
+    background-image: linear-gradient(90deg,rgba(0,168,255,.5),rgba(185,0,255,.5)), url("/Lab3/img/bg-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-main{
+    width: 390px;
+    padding: 80px 55px 30px;
+    background: white;
+    border-radius: 15px;
+    height: 100%;
+}
+.header h1{
+    padding-bottom: 37px;
+    color: #4b2354;
+    font-size: 30px;
+}
+.input-form{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+ }
+.input100{
+    border-radius: 20px;
+    background: #ffffff;
+    border: unset;
+    width: 100%;
+    padding: 27px 20px;
+}
+.focus-input100{
+    display: block;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 5px 30px 0 #d9d9d9;
+    height: 100%;
+    top: 0;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.btn-form{
+    border-radius: 20px;
+    background: #bd59d4;
+    border: unset;
+    padding: 18px 53px;
+    line-height: 1.2;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.btn-form:hover{
+    background: #4b2354;
+}
+
+.text{
+    font-family: "Franklin Gothic Book";
+    color: #999999;
+    margin-bottom: 25px;
+}
+.login-social{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 112px;
+    padding-top: 30px;
+}
+
+.social-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 30px 0 #d9d9d9 ;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color:#3b5998 ;
+    font-size: 25px;
+    text-decoration: none;
+    background: white;
+    margin: 5px;
+}
+.social-item:hover{
+    box-shadow: 0 5px 30px 0 rgba(70, 65, 65, 0.4);
+}
+
+.txt-signup{
+    font-family: "Franklin Gothic Book";
+    text-decoration: none;
+    color: #4b2354;
+    font-size: 18px;
+}
+.txt-signup:hover{
+    text-decoration:underline #4b2354;
+}
+
+
+
