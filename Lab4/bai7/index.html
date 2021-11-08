@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai7</title>
+
+</head>
+<style>
+    button {
+        width: 100px;
+        height: 50px;
+        background: white;
+        margin: 10px;
+        color: black;
+        border-radius: 5px;
+        border: none;
+    }
+
+    #buttoncontent {
+        width: 56%;
+        margin: auto;
+        background-image: url("./img/picture.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    }
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+<div id="buttoncontent">
+
+</div>
+<script>
+    let i = 1;
+    var arr = [];
+    var bt = document.getElementById("buttoncontent");
+    var flag = 1;
+    for (let j = 0; j <=64; j++) {
+        arr[0]=1;
+        arr[j]=j+1;
+    }
+    for (let j = 1; j <= 64; j++) {
+        var rd = Math.floor((Math.random() * Math.floor(64)));
+            var tmp = arr[rd];
+            arr[rd] = arr[j];
+            arr[j] = tmp;
+            console.log();
+    }
+    for (i; i <= 64; i++) {
+        let button = document.createElement("button");
+        console.log(button);
+        button.innerHTML = arr[i];
+        bt.appendChild(button);
+        button.addEventListener("click", check);
+    }
+
+    function check(event) {
+        var x = event.target.innerHTML;
+        var btn = event.target;
+        if (x == flag) {
+            btn.style.visibility = "hidden";
+
+            flag++;
+        } else if (x != flag) {
+            alert("Chọn đúng thứ tự. Please!");
+        }
+    }
+
+
+</script>
+</body>
+</html>

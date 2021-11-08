@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Bai3</title>
+    <script type="text/javascript">
+        function RndText() {
+            var t = [
+                "hi",
+                "hello",
+                "bonjour"
+            ];
+            var rannum = Math.floor(Math.random() * t.length);
+            document.getElementById('ShowText').innerHTML = t[rannum];
+        }
+
+        onload = function () {
+            RndText();
+        }
+
+
+    </script>
+    <link rel="stylesheet" href="../css/Style.css">
+</head>
+<body>
+<div id="ShowText"></div>
+</body>
+
+</html>

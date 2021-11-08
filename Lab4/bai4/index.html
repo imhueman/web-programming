@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai4</title>
+
+</head>
+<style>
+    #container {
+        width: 500px;
+        height: 500px;
+        margin: auto;
+    }
+
+    .text {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    input {
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 370px;
+        height: 30px;
+    }
+
+    textarea {
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+
+    button {
+        margin-left: 60px;
+        width: 70px;
+        height: 30px;
+        background: deeppink;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #result {
+        background: #5b9a68;
+        width: 378px;
+        height: 100px;
+        border-radius: 5px;
+        margin-left: 30px;
+    }
+</style>
+<body>
+<div id="container">
+    <div class="text">
+        <h3>Text Area: </h3>
+        <textarea id="textarea" rows="4" cols="50"></textarea>
+    </div>
+    <div class="text">
+        <h3>Text Field: </h3>
+        <input id="textfield" type="text">
+    </div>
+    <div class="text">
+        <button onclick="myFunction()">Submit</button>
+    </div>
+    <div  class="text">
+        <h3>Result: </h3>
+        <div id="result">
+            <p id="res"></p>
+        </div>
+
+    </div>
+
+</div>
+<script>
+    function myFunction() {
+        console.log(document.getElementById('textarea').value);
+        var text = document.getElementById('textarea').value;
+        var item = document.getElementById('textfield').value;
+        var temp;
+        if (text == "") {
+            temp = "Vui lòng nhập đoạn text!"
+        } else if (item == "")
+            temp = "Vui lòng nhập chuỗi bạn muốn tìm!";
+        else {
+            var regex = new RegExp(item, "g");
+            temp = text.match(regex).length;
+
+            temp = "Số lần xuất hiện của  " + item + "  trong chuỗi trên là: " + temp;
+        }
+
+        document.getElementById('res').innerHTML = temp;
+    }
+</script>
+
+</body>
+</html>

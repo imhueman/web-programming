@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai5</title>
+
+    <style>
+        #time {
+            width: 50%;
+            margin: auto;
+            font-size: 60px;
+            padding: 11%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body id="main">
+<div>
+    <div id="time" >
+        <img src="../bai5/picture.jpg" height="516" width="516"/></div>
+</div>
+
+<script>
+    var deg = 0;
+
+    function setTime() {
+        document.getElementById('time').style.transform = 'rotate(' + deg + 'deg)';
+        deg += 15;
+        if (deg == 360)
+            deg = 0;
+        window.setTimeout('setTime()', 2000);
+    }
+
+    setTime();
+</script>
+</body>
+</html>
